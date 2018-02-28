@@ -1,28 +1,39 @@
+
 <html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
-.ALL{background-color: black;}
-.MP{	background-color: gray;	 }
+<style>
+.ALL{background-color: black;
+	}
+.MP{		
+	background-image: url('https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/27336886_2110687772280330_2517658875670721617_n.jpg?oh=1166678333a71fbbf79f783e1b8fdfb0&oe=5B413523');
+    background-size: cover;
+	 }
 .WTR{
-	font-size: 300px;
+	font-size: 400px;
 	color: purple;
     text-align: center;
-	margin-bottom: -20;}
+	margin-bottom: -20;
+	font-family: Lobster;
+}
 .C4{
-    font-size: 75px;
-	color: red;
-	text-align: center;}
+     font-size: 75px;
+	color: white;
+	text-align: center;
+    margin: +300px -500px +20px}
 .PSN{
 	font-size: 50px;
 	color: green;
 	text-align: center;}
 .GO{
- height:200px; 
+ text-align: center;
+ height:100px; 
  position:relative; 
- margin: -20px -500px +20px; 
+ margin: +200px -500px +20px; 
  width:1000px; 
  top:50%; 
  left:50%;
- } 
+  } 
 .GO2{
 	font-size: 100px;
 	color: purple;
@@ -30,39 +41,42 @@
 	margin:  0px 0px +20px 0px;
  }
 .OP{
-	font-size: 50px;
+	font-size: 90px;
 	color: blue;
 	text-align: center;
 	font-weight:bold;
  }     
 </style>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title> COHORT 4 </title>
 </head>
 <body>
 <div class="ALL">
 	<div class="MP">
-		<p class="WTR"><b>RBK</b></p>
+		<p class="WTR"><b>R B K</b></p>
 		<p class="C4"><b>Cohort 4</b></p>
+		
 <div class=" ">
-	  <select class="GO OP" name="allName">
-	  	<option >-Select a name-</option>
-	  	<option value="Abdalhamed Abdalla">Abdalhamed Abdalla</option>
-	    <option value="Ahmad Mostafa">Ahmad Mostafa</option>
-	  	<option value="Alik Alaqra">Alik Alaqra</option>
-	    <option value="Amira Hassoun">Amira Hassoun</option>
-	    <option value="Ammar Halbouni">Ammar Halbouni</option>
-	    <option value="Atheer Mahmood">Atheer Mahmood</option>
-	 	<option value="Fatima">Fatima</option>
-	    <option value="Hanan Majali">Hanan Majali</option>
-	    <option value="Loop">Loop</option>
-	    <option value="Nader Nasr">Nader Nasr</option>
-	    <option value="Qays Trad">Qays Trad</option>
-	    <option value="Raed Bani Awwad">Raed Bani Awwad</option>
-	  	<option value="Safaa El Ouafi">Safaa El Ouafi</option>
-	    <option value="Sara">Sara</option>
-	    <option value="Hugh">Hugh</option>
-	    <option value=""></option>
+	  <select id="NAME" class="GO OP" name="allName">
+	  	<option >Select a name please</option>
+	  	<option id="0" value="Abdalhamed Abdalla">Abdalhamed Abdalla</option>
+	    <option id="1" value="Ahmad Mostafa">Ahmad Mostafa</option>
+	  	<option id="2" value="Alik Alaqra">Alik Alaqra</option>
+	    <option id="3" value="Amira Hassoun">Amira Hassoun</option>
+	    <option id="4" value="Ammar Halbouni">Ammar Halbouni</option>
+	    <option id="5" value="Atheer Mahmood">Atheer Mahmood</option>
+	 	<option id="6" value="Fatima">Fatima</option>
+	    <option id="7" value="Hanan Al-majali">Hanan Al-majali</option>
+	    <option id="8" value="Hugh Bosely">Hugh Bosely</option>
+	    <option id="9" value="Loop">Loop</option>
+	    <option id="10" value="Mohannad Bakkar">Mohannad Bakkar</option>
+	    <option id="11" value="Nader Nasr">Nader Nasr</option>
+	    <option id="12" value="Qays Trad">Qays Trad</option>
+	    <option id="13" value="Raed Bani Awwad">Raed Bani Awwad</option>
+	  	<option id="14" value="Safaa El Ouafi">Safaa El Ouafi</option>
+	    <option id="15" value="Sara">Sara</option>
+	   
 <!-- 
 	    <option value=""></option>
 	    <option value=""></option>
@@ -91,15 +105,15 @@
 	  </select>
 </div>
 <div class=" ">
-	<button class="GO" ><p class="GO2"><b>GO - GO - GO - GO </b></p></button>
+	<button id="GO" class="GO" ><p class="GO2"><b>GO - GO - GO </b></p></button>
 </div>
-
 </div>
-<div>
+<div id="only for black">
 	<p class=""><b>RBK</b></p>
 </div>
-		</div>
+</div>
 </body>
 <script type="text/javascript" src="Objects.js"></script>
+<script >
 </script>
 </html>
